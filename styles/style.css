@@ -1,3 +1,32 @@
-<section>
-  background-image: url("/images/gilles-lambert-249996.jpg");
-</section>
+/*-----CSS RESET-----*/
+* {padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+.top {
+  height: 100vh;
+  background-image: url("../images/gilles-lambert-249996.jpg");
+}
+section h1{
+  font-size: 50px;
+  padding-top: 100px;
+}
+section p{
+  font-size: 25px;
+  padding-top: 1px;
+}
+.top h1, p {
+  text-align: center;
+  color: white;
+}
+/*-----Layout Padding & Margin-----*/
+.padded {
+  padding: 10%;
+}
+div.col-6 .top-left-grid-photo {
+  height: 70vh;
+  background-image: url("../images/charles-deluvio-351207.jpg")
+}
+/*-----Typography-----*/
+/*-----Universal Styles-----*/
+/*-----Header Banner-----*/
