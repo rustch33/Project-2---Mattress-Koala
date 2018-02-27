@@ -5,54 +5,70 @@
   <link rel="stylesheet" href="styles/style.css" type="text/css">
   </head>
   <body>
-    <section class="top">
-      <h1> <span>sleep</span> like a baby </h1>
-      <p> the ultimate mattress solution </p>
+    <section class="top grid-middle-center">
+        <div>
+          <h1> <span>sleep</span> like a baby </h1>
+          <p> the ultimate mattress solution </p>
+        </div>
     </section>
     <div class="grid">
       <div class="col-6">
         <div class="top-left-grid-photo">
         <!--image here -->
+        </div>
       </div>
       <div class="col-6">
+        <div class="info-in-box">
         <h2> built to last a lifetime </h2>
         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
+      </div>
     </div>
-    <div class="grid">
-      <div class="bottom-right-grid-photo">
-      <!--might need to add reverse here for dynamics but it reversing them initially. Is it a media query?-->
+    <div class="grid-reverse">
       <div class="col-6">
+        <div class="bottom-right-grid-photo">
+      <!--might need to add reverse here for dynamics but it reversing them initially. Is it a media query?-->
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="info-in-box">
         <h2> so soft you'll melt </h2>
         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      </div>
         </div>
       <div class="col-6">
         <!--image here -->
       </div>
     </div>
-    <section>
+    <section class="under-grid grid-middle-center">
+      <div>
       <p> never underestimate the power of </p>
-      <p> a good night <span>sleep</span> </p>
+      <h2> a good night <span>sleep</span> </h2>
+    </div>
     </section>
 
-    <section>
+    <section class="grid-middle-center">
+      <div class="quote-section">
       <blockquote> i've never experienced sleep like this. Omg I really love this mattress. I want to buy one from every member of my family and one for my dog too. </blockquote>
       <p> - a very happy customer </p>
+      </div>
     </section>
 
-    <footer>
-      <div>
+    <footer class="grid">
+      <div class="col-6 lets-connect grid-middle-center">
         <h2> let's <span>connect</span> </h2>
         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div>
-      <form>
-        <input type="text" name="full-name" id="full-name" placeholder="Your Name">
-        <input type="email" name="email" id="email" placeholder="Your Email">
-        <input type="text" name="comments" id="comments" placeholder="Tell us what you want to say">
-        <input type="submit" name="submit" value="send">
-      </form>
-    </div>
+      </div>
+      <div class="col-6 form grid-middle-center">
+        <form>
+          <input type="text" name="full-name" id="full-name" placeholder="Your Name">
+          <input type="email" name="email" id="email" placeholder="Your Email">
+          <input type="text" name="comments" id="comments" placeholder="Tell us what you want to say">
+        </form>
+        <form class="button">
+          <input type="submit" name="submit" value="send">
+        </form>
+      </div>
     </footer>
   </body>
 
