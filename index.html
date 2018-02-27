@@ -1,72 +1,74 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
   <link rel="stylesheet" href="styles/gridlex.css" type="text/css">
   <link rel="stylesheet" href="styles/style.css" type="text/css">
   </head>
   <body>
-    <section class="top grid-middle-center">
+    <!--top banner-->
+    <section class="top-banner grid-middle-center">
         <div>
-          <h1> <span>sleep</span> like a baby </h1>
-          <p> the ultimate mattress solution </p>
+          <h1><span>sleep </span>like a baby</h1>
+          <p class="special-p">the ultimate mattress solution</p>
         </div>
     </section>
-    <div class="grid">
-      <div class="col-6">
-        <div class="top-left-grid-photo">
-        <!--image here -->
+    <!--first grid photo content -->
+    <section class="grid">
+      <div class="top-left-photo col-6_sm-12">
+      </div>
+      <div class="info-in-box col-6col-6_sm-12 grid-middle-center padded-10">
+        <div>
+          <h2>built to last a <span> lifetime </span> </h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </div>
-      <div class="col-6">
-        <div class="info-in-box">
-        <h2> built to last a lifetime </h2>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-      </div>
-    </div>
-    <div class="grid-reverse">
-      <div class="col-6">
-        <div class="bottom-right-grid-photo">
-      <!--might need to add reverse here for dynamics but it reversing them initially. Is it a media query?-->
+    </section>
+      <!--second grid photo content -->
+    <section class="grid mobile-flip">
+      <div class="info-in-box col-6col-6_sm-12 grid-middle-center padded-10">
+        <div>
+          <h2>so <span> soft</span> you'll melt</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </div>
-      <div class="col-6">
-        <div class="info-in-box">
-        <h2> so soft you'll melt </h2>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      <div class="bottom-right-photo col-6col-6_sm-12">
+      <!--someone said grid-reverse may not work?-->
       </div>
         </div>
-      <div class="col-6">
-        <!--image here -->
-      </div>
-    </div>
-    <section class="under-grid grid-middle-center">
+    </section>
+    <!--Tagline banner -->
+    <section class="tagline-banner grid-middle-center">
       <div>
-      <p> never underestimate the power of </p>
-      <h2> a good night <span>sleep</span> </h2>
+      <p>never underestimate the power of</p>
+      <h2>a good night <span>sleep</span></h2>
     </div>
     </section>
-
-    <section class="grid-middle-center">
-      <div class="quote-section">
-      <blockquote> i've never experienced sleep like this. Omg I really love this mattress. I want to buy one from every member of my family and one for my dog too. </blockquote>
-      <p> - a very happy customer </p>
+    <!--quote section-->
+    <section class="grid padded-10">
+      <div class="col-1 right">"
+      </div>
+        <div class="col-10 quote-section">
+          <blockquote class="grid-middle-center">I've never experienced sleep like this. Omg I really love this mattress. I want to buy one from every member of my family and one for my dog too.</blockquote>
+          <p> ~ a very happy customer</p>
+        </div>
+        <div class="col-1">"
+        </div>
       </div>
     </section>
 
     <footer class="grid">
-      <div class="col-6 lets-connect grid-middle-center">
-        <h2> let's <span>connect</span> </h2>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <div class="col-6-middle lets-connect">
+        <h2>let's</h2>
+        <h2><span>connect</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
-      <div class="col-6 form grid-middle-center">
+      <div class="col-6-middle form">
         <form>
           <input type="text" name="full-name" id="full-name" placeholder="Your Name">
           <input type="email" name="email" id="email" placeholder="Your Email">
-          <input type="text" name="comments" id="comments" placeholder="Tell us what you want to say">
-        </form>
-        <form class="button">
-          <input type="submit" name="submit" value="send">
+          <textarea type="text" name="comments" id="comments" placeholder="Tell us what you want to say" rows="6"></textarea>
+          <input class="button" type="submit" name="submit" value="submit">
         </form>
       </div>
     </footer>
